@@ -56,12 +56,9 @@ const BMITom = tomMass / tomHeight ** 2;
 const BMIJerry = jerryMass / (jerryHeight * jerryHeight);
 console.log(BMITom, BMIJerry);
 
-if (BMITom > BMIJerry) {
+const tomBMIGTJerry = BMITom > BMIJerry;
+if (tomBMIGTJerry) {
     console.log("Tom's BMI is higher than Jerry's");
 } else {
     console.log("Jerry's BMI is higher than Tom's");
 }
-
-
-
-
