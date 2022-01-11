@@ -43,7 +43,7 @@ if (month == 1) {
 } else if (month == 12) {
     console.log("December")
 } else {
-    console.log("That is not 1-12")
+    console.log("That is not 1-12 you idiot -_- Try again!")
 }
 
 // Hard
